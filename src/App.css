@@ -1,0 +1,23 @@
+.app {
+    background-image: url("../ft1.jpeg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+@media (max-width:600px){
+    .app {
+        background-image: url("../public/ft2.jpeg");
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
